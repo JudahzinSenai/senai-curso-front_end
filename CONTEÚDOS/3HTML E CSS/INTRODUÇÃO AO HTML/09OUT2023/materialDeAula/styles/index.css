@@ -96,3 +96,13 @@ p{
     transform: scale(15px);
     transition-duration: 0.3s;
 } */
+footer{
+    width: 100%;
+    height: 100px;
+
+    background-color: var(--cor-secundaria);
+
+    padding-top: 30px;   
+    text-align: center;
+
+}
