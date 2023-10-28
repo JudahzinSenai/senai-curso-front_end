@@ -20,7 +20,6 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 3 - HTML e CSS
   - Atividade 6
   - Atividade 8
-  - Atividade 10
   - Revisão (Netflix Clone)
 
 ✅ Entregues
@@ -45,6 +44,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 5
   - Atividade 7
   - Atividade 9
+  - Atividade 10
 
 ## :handshake: Colaboradores
 
