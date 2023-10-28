@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/reduzida.css" media="screen and (max-width: 768px)">
     <title>H&C - Atividade 10</title>
 </head>
 <body>
@@ -20,6 +21,9 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+        <div class="menuMobile" onclick="openMenuMobile()">
+            <h1> - </h1>
+        </div>
     </header>
 <!--!---- MAIN ------>
     <main>
@@ -27,12 +31,15 @@
     <!--!---- ARTE ------->
         <section class="arteDestaque">
             <article>
-                <h3>Elizabeth</h3>
-                <figure>
-                    <img src="images/elizabeth.jpg" alt="Elizabeth">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in autem minima eos sequi esse, saepe iusto asperiores! Porro officiis perferendis voluptatum quidem iusto harum nam voluptates. Quas, enim voluptas. Maxime eligendi fugiat natus quisquam?</figcaption>
-                </figure>
-                <button>Ver sobre</button>
+                <div>
+                    <h3>Elizabeth</h3>
+                    <figure>
+                        <source srcset="images/elizabethReduzida.png" media="screen and (max-width: 768px)">
+                        <img src="images/elizabeth.jpg" alt="Elizabeth">
+                        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in autem minima eos sequi esse, saepe iusto asperiores! Porro officiis perferendis voluptatum quidem iusto harum nam voluptates. Quas, enim voluptas. Maxime eligendi fugiat natus quisquam?</figcaption>
+                    </figure>
+                    <button>Ver sobre</button>
+                </div>
             </article>
         </section>
     <!--!---- TEXTO ------->
@@ -74,9 +81,11 @@
             </article>
         </section>
     </main>
- <!--!-- FOOTER ---->
+<!--!-- FOOTER ---->
     <footer>
-        <p>ArtMuseum © 2023</p>
+    <p>ArtMuseum © 2023</p>
     </footer>
+<!--?-- SCRIPT ---->
+    <script src="index.js"></script>
 </body>
 </html>

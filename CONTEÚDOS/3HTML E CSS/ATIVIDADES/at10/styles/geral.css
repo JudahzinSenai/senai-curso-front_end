@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
 /*!---- CABEÇALHO ----*/
 header{
     margin-bottom: 10px;
@@ -43,6 +44,9 @@ nav a{
     
     text-decoration: none;
 }
+.menuMobile{
+    display: none;
+}
 
 /*!---- MAIN ----*/
 main{
@@ -67,14 +71,16 @@ h2{
     /*!------ ARTE ------*/
     .arteDestaque{
         margin-bottom: 50px;
-        padding: 25px;
+        /* padding: 25px; */
 
         width: 100%;
         
         border: 1px solid #a7a7a7;
         border-radius: 15px;
     }
-    .arteDestaque article{
+    .arteDestaque article div{
+        margin: 25px;
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -113,6 +119,7 @@ h2{
         font-size: 1.3em;
         font-weight: 700;
     }
+
     /*!------- TEXTO ------*/
     .p p{
         width: 100%;
@@ -121,17 +128,19 @@ h2{
         font-size: 1.2em;
         font-weight: 500;
     }
+
     /*!---- MAIS ARTES ----*/
     .maisArtes{
         display: flex;
         align-content: space-evenly;
-        gap: 13px;
+        gap: 30px;
     }
     .maisArtes article{
         width: 80%;
         
         border: 1px solid #a7a7a7;
         border-radius: 10px;  
+        text-align: center;
     }
     .maisArtes article div{
         margin: 25px;
@@ -178,6 +187,7 @@ h2{
         font-size: 1.3em;
         font-weight: 700;    
     }
+
 /*!---- FOOTER ----*/
 footer{
     margin-top: 30px;
