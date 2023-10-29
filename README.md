@@ -52,10 +52,10 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/judah-lopes">
+      <a href="https://github.com/JudahzinSenai">
         <img src="https://avatars.githubusercontent.com/u/134812191?s=400&u=00a571215f2ea321a8738af235cea655e1e36ec6&v=4" width="100px;" alt="Foto de Judah Lopes no GitHub"/><br>
         <sub>
-          <b>judah-lopes</b>
+          <b>JudahzinSenai</b>
         </sub>
       </a>
     </td>
