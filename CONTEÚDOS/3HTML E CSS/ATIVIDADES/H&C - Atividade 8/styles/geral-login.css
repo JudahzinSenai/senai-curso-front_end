@@ -105,6 +105,17 @@ button:hover{
     justify-self: flex-end;
     justify-content: space-between;
 }
+
+.footer div{
+    display: flex;
+}
+.fgtSenha{
+    height: fit-content;
+
+    padding-right: 15px;
+    border-right: 2px solid;
+}
+
 .tema img{
     width: 100%;
     padding: 5px;

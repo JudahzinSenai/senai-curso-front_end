@@ -19,10 +19,13 @@ input:focus{
 button{
     background-color: #092c29;
     
-    color: rgba(255, 255, 255, 0.824);
+    color: #ffffffd2;
 }
 button:hover{
     background-color: #18433f;
     
     color: white;
+}
+.fgtSenha{
+    border-color: #092c29;
 }

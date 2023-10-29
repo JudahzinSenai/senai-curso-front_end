@@ -16,6 +16,7 @@
 main{
     width: 70%;
     height: 600px;
+    
     display: flex;
 
     overflow: hidden;
@@ -46,9 +47,10 @@ main{
     align-items: center;
 }
 h2{
-    margin-top: 50px;
     margin-bottom: 40px;
     
+    align-self: center;
+
     font-size: 2.5em;
 }
 form{
@@ -57,7 +59,7 @@ form{
     
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
 }
 label{
     margin-bottom: 5px;
@@ -103,6 +105,17 @@ button:hover{
     justify-self: flex-end;
     justify-content: space-between;
 }
+
+.footer div{
+    display: flex;
+}
+.fgtSenha{
+    height: fit-content;
+
+    padding-right: 15px;
+    border-right: 2px solid;
+}
+
 .tema img{
     width: 100%;
     padding: 5px;
