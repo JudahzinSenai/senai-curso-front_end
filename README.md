@@ -43,6 +43,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 4
   - Atividade 5
   - Atividade 7
+  - Atividade 8
   - Atividade 9
   - Atividade 10
 
