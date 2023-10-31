@@ -13,12 +13,12 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="14px;"/> HTML;
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="14px"/> CSS;
 
-## 📝 Atividades
+## 📝 Entregas
 
 ⚠️ Entregar
 
 3 - HTML e CSS
-  - Revisão (Netflix Clone)
+  - Avaliação
 
 ✅ Entregues
 
@@ -45,6 +45,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 8
   - Atividade 9
   - Atividade 10
+  - Revisão (Netflix Clone)
 
 ## :handshake: Colaboradores
 
