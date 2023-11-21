@@ -17,8 +17,11 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 
 ⚠️ Entregar
 
-3 - HTML e CSS
-  - Avaliação
+4 - Bootstrap
+  - Atividade 1 (Pawshop 2.0)
+  - Atividade 2 (Banco 90)
+  - Atividade 3 (Pawshop 2.0 continuação)
+  - Atividade 4 (Banner Responsividade)
 
 ✅ Entregues
 
@@ -33,6 +36,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 5
   - Atividade 6
   - Revisão
+  - Avaliação
 
 3 - HTML e CSS
   - Atividade 1
@@ -46,6 +50,10 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 9
   - Atividade 10
   - Revisão (Netflix Clone)
+  - Avaliação
+
+4 - BootStrap
+  - Avaliação (mais ou menos)
 
 ## :handshake: Colaboradores
 
