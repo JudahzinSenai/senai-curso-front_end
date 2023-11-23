@@ -12,7 +12,9 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="14px;"/> HTML;
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="14px"/> CSS;
-
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" width="18px"/> BOOTSTRAP;
+-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="14px"/> JAVASCRIPT;
+          
 ## 📝 Entregas
 
 ⚠️ Entregar
@@ -22,6 +24,11 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 2 (Banco 90)
   - Atividade 3 (Pawshop 2.0 continuação)
   - Atividade 4 (Banner Responsividade)
+
+5 - JAVASCRIPT
+  - Atividade 1 (Introdução ao JS)
+  - Atividade 2 (Condicional)
+  - Atividade 3 (Repetições e Arrays)
 
 ✅ Entregues
 
