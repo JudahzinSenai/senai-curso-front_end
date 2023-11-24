@@ -26,8 +26,6 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 4 (Banner Responsividade)
 
 5 - JAVASCRIPT
-  - Atividade 1 (Introdução ao JS)
-  - Atividade 2 (Condicional)
   - Atividade 3 (Repetições e Arrays)
 
 ✅ Entregues
@@ -61,6 +59,10 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 
 4 - BootStrap
   - Avaliação (mais ou menos)
+
+5 - JAVASCRIPT
+  - Atividade 1
+  - Atividade 2
 
 ## :handshake: Colaboradores
 
