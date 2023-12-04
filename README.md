@@ -14,6 +14,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="14px"/> CSS;
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" width="18px"/> BOOTSTRAP;
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="14px"/> JAVASCRIPT;
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="18px"/> JQUERY;
           
 ## 📝 Entregas
 
@@ -27,7 +28,10 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 
 5 - JAVASCRIPT
   - Atividade 3 (Repetições e Arrays)
-  - Atividade 4 
+  - Atividade 6 (Objetos)
+  - Atividade 7 (Revisão Objeto JS)
+  - Atividade 8 (ECMASCRIPT)
+  - Atividade 9 (jQuery)
 
 ✅ Entregues
 
