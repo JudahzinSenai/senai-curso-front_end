@@ -68,6 +68,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 5 - JAVASCRIPT
   - Atividade 1
   - Atividade 2
+  - Atividade 4
 
 ## :handshake: Colaboradores
 
