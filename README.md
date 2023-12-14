@@ -32,6 +32,11 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 7 (Revisão Objeto JS)
   - Atividade 8 (ECMASCRIPT)
   - Atividade 9 (jQuery)
+  - Atividade 10 (jQuery 2)
+  - Atividade 11 (API)
+  - Revisão (Spotify)
+  - Avaliação
+
 
 ✅ Entregues
 
