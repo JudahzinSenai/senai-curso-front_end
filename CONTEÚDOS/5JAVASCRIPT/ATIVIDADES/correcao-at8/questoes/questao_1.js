@@ -1,18 +1,26 @@
-var jogos = ["COD","GTA","DOOM","RE7","GOW"]
+const btnTrocar = document.querySelector("#btnTrocar")
+const btnTrocarTodos = document.querySelector("#btnTrocarTodos")
 
-const btnPesquisar = document.querySelector("#btnPesquisar")
+btnTrocar.addEventListener("click", trocarUmTermo)
+btnTrocarTodos.addEventListener("click", trocarTodosTermos)
 
-btnPesquisar.addEventListener("click", pesquisar)
+function trocarUmTermo(){
+    let blocoDeTexto = document.querySelector("#blocoDeTexto")
+    let removerTermo = document.querySelector("#removerTermo").value
+    let adicionarTermo = document.querySelector("#adicionarTermo").value
 
-function pesquisar(){
-    let pesquisarInput = document.querySelector("#pesquisa").value
-    let resposta = document.querySelector("#resposta")
+    let blocoDeTextoFormatado = blocoDeTexto.value.replace(removerTermo,adicionarTermo)
+    console.log(blocoDeTextoFormatado)
 
-    var resultado = jogos.includes(pesquisarInput)
+    blocoDeTexto.value = blocoDeTextoFormatado
+}
+function trocarTodosTermos(){
+    let blocoDeTexto = document.querySelector("#blocoDeTexto")
+    let removerTermo = document.querySelector("#removerTermo").value
+    let adicionarTermo = document.querySelector("#adicionarTermo").value
 
-    if (resultado == true) {
-        resposta.innerHTML = `Jogo encontrado. O jogo pesquisado foi ${pesquisarInput}`
-    } else {
-        resposta.innerHTML = `Jogo não encontrado!`
-    }
+    let blocoDeTextoFormatado = blocoDeTexto.value.replaceAll(removerTermo,adicionarTermo)
+    console.log(blocoDeTextoFormatado)
+
+    blocoDeTexto.value = blocoDeTextoFormatado
 }

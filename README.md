@@ -26,8 +26,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Atividade 3 (Pawshop 2.0 continuação)
   - Atividade 4 (Banner Responsividade)
 
-5 - JAVASCRIPT
-  - Atividade 3 (Repetições e Arrays)
+5 - JavaScript 
   - Atividade 6 (Objetos)
   - Atividade 7 (Revisão Objeto JS)
   - Atividade 8 (ECMASCRIPT)
@@ -37,6 +36,8 @@ Documentar e salvar todos os arquivos criados ao longo do curso
   - Revisão (Spotify)
   - Avaliação
 
+6 - API (Bônus)
+  - Atividade 1 (validaCep)
 
 ✅ Entregues
 
@@ -73,6 +74,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 5 - JAVASCRIPT
   - Atividade 1
   - Atividade 2
+  - Atividade 3
   - Atividade 4
 
 ## :handshake: Colaboradores

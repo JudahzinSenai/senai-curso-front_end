@@ -1,26 +1,14 @@
-const btnTrocar = document.querySelector("#btnTrocar")
-const btnTrocarTodos = document.querySelector("#btnTrocarTodos")
+const verificarPromise = new Promise((resolve,reject) => {
+    let nome = "ADM"
+    let senha = "ADM"
 
-btnTrocar.addEventListener("click", trocarUmTermo)
-btnTrocarTodos.addEventListener("click", trocarTodosTermos)
+    if (nome == "ADM" && senha == "ADM") {
+        resolve(`Seja bem vindo administrador`)        
+    } else {
+        reject(`O usuário não é ADM! Faça login de maneira alternativ`)
+    }
+})
 
-function trocarUmTermo(){
-    let blocoDeTexto = document.querySelector("#blocoDeTexto")
-    let removerTermo = document.querySelector("#removerTermo").value
-    let adicionarTermo = document.querySelector("#adicionarTermo").value
-
-    let blocoDeTextoFormatado = blocoDeTexto.value.replace(removerTermo,adicionarTermo)
-    console.log(blocoDeTextoFormatado)
-
-    blocoDeTexto.value = blocoDeTextoFormatado
-}
-function trocarTodosTermos(){
-    let blocoDeTexto = document.querySelector("#blocoDeTexto")
-    let removerTermo = document.querySelector("#removerTermo").value
-    let adicionarTermo = document.querySelector("#adicionarTermo").value
-
-    let blocoDeTextoFormatado = blocoDeTexto.value.replaceAll(removerTermo,adicionarTermo)
-    console.log(blocoDeTextoFormatado)
-
-    blocoDeTexto.value = blocoDeTextoFormatado
-}
+verificarPromise.then((x) => {
+    console.log(x)
+})

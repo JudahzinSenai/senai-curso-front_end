@@ -1,14 +1,18 @@
-const verificarPromise = new Promise((resolve,reject) => {
-    let nome = "ADM"
-    let senha = "ADM"
+var jogos = ["COD","GTA","DOOM","RE7","GOW"]
 
-    if (nome == "ADM" && senha == "ADM") {
-        resolve(`Seja bem vindo administrador`)        
+const btnPesquisar = document.querySelector("#btnPesquisar")
+
+btnPesquisar.addEventListener("click", pesquisar)
+
+function pesquisar(){
+    let pesquisarInput = document.querySelector("#pesquisa").value
+    let resposta = document.querySelector("#resposta")
+
+    var resultado = jogos.includes(pesquisarInput)
+
+    if (resultado == true) {
+        resposta.innerHTML = `Jogo encontrado. O jogo pesquisado foi ${pesquisarInput}`
     } else {
-        reject(`O usuário não é ADM! Faça login de maneira alternativ`)
+        resposta.innerHTML = `Jogo não encontrado!`
     }
-})
-
-verificarPromise.then((x) => {
-    console.log(x)
-})
+}

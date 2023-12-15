@@ -1,7 +1,7 @@
 var filmes = ["a", "b", "c", "d", "e",];
 
-for(var contador = 0; contador < filmes.length; contador++){
-    console.log(filmes[contador])
+for(var i = 0; i < filmes.length; i++){
+    console.log(filmes[i])
 }
 
 filmes.forEach( (cadaFilme) => {
